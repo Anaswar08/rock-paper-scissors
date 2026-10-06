@@ -63,27 +63,6 @@ function playGame() {
     let humanSelection=getHumanChoice();
     let computerSelection=getComputerChoice();
 
-    console.log(playRound(humanSelection, computerSelection));
-
-    humanSelection=getHumanChoice();
-    computerSelection=getComputerChoice();
-
-    console.log(playRound(humanSelection, computerSelection));
-
-    humanSelection=getHumanChoice();
-    computerSelection=getComputerChoice();
-
-    console.log(playRound(humanSelection, computerSelection));
-
-    humanSelection=getHumanChoice();
-    computerSelection=getComputerChoice();
-
-    console.log(playRound(humanSelection, computerSelection));
-
-    humanSelection=getHumanChoice();
-    computerSelection=getComputerChoice();
-
-    console.log(playRound(humanSelection, computerSelection));
 
     if(computerScore > humanScore) {
         console.log("You loose!");
